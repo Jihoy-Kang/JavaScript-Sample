@@ -1,0 +1,38 @@
+body {
+  background-image: url("./image/background.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+
+nav {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid lightgray;
+}
+main {
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  height: 100vh;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+nav div {
+  padding: 0.5em;
+  display: flex;
+}
+
+#task-board {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
