@@ -45,3 +45,7 @@ main section {
 h3 {
   margin-bottom: 0rem;
 }
+
+.doneCheck {
+  text-decoration: line-through;
+}
